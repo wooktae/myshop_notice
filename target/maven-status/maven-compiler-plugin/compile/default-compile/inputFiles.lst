@@ -1,0 +1,10 @@
+C:\LabTest\myShop2\notice\src\main\java\myShop\AbstractEvent.java
+C:\LabTest\myShop2\notice\src\main\java\myShop\CancelNoticeSended.java
+C:\LabTest\myShop2\notice\src\main\java\myShop\config\kafka\KafkaProcessor.java
+C:\LabTest\myShop2\notice\src\main\java\myShop\NoticeRepository.java
+C:\LabTest\myShop2\notice\src\main\java\myShop\NoticeController.java
+C:\LabTest\myShop2\notice\src\main\java\myShop\DeliveryCanceled.java
+C:\LabTest\myShop2\notice\src\main\java\myShop\NoticeSended.java
+C:\LabTest\myShop2\notice\src\main\java\myShop\PolicyHandler.java
+C:\LabTest\myShop2\notice\src\main\java\myShop\NoticeApplication.java
+C:\LabTest\myShop2\notice\src\main\java\myShop\Notice.java

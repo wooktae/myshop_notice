@@ -1,0 +1,11 @@
+myShop\CancelNoticeSended.class
+myShop\NoticeApplication.class
+myShop\NoticeController.class
+myShop\AbstractEvent$1.class
+myShop\NoticeSended.class
+myShop\config\kafka\KafkaProcessor.class
+myShop\DeliveryCanceled.class
+myShop\PolicyHandler.class
+myShop\Notice.class
+myShop\NoticeRepository.class
+myShop\AbstractEvent.class
