@@ -97,12 +97,11 @@
 
 <img src="https://user-images.githubusercontent.com/20061192/93419266-61ca4080-f8e7-11ea-9315-8f715064840e.png"></img>
 
-<img src="https://user-images.githubusercontent.com/20061192/93419154-11eb7980-f8e7-11ea-896e-8e5da77d638b.png"></img>
 
 ## 오토스케일 아웃
 
  - Mertric 서버 설치 후 오토스케일링 TEST
- - reservation의 deployment.yaml수정 후 배포 
+ - notice 의 deployment.yaml수정 후 배포 
 
 <img src="https://user-images.githubusercontent.com/68719151/93408895-9f6f9f00-f8d0-11ea-9c2c-e40e4335e90b.JPG"></img>
 
