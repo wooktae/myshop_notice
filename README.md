@@ -81,11 +81,13 @@
 
 - view페이지인 customercenter 서비스에서는 DB hsql를 적용함
 
-<img src="https://user-images.githubusercontent.com/68719151/93408246-0724ea80-f8cf-11ea-81c5-17fd29f96ba5.JPG"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93415901-87534c00-f8df-11ea-8492-dad64713b52b.png"></img>
+
+<img src="https://user-images.githubusercontent.com/20061192/93415920-90441d80-f8df-11ea-9f50-5381215b0eb2.png"></img>
 
 ## 서킷 브레이킹
 
- - istio를 이용한 CB TEST 
+ - istio를 이용한 Circuit Breaking Test
 
 <img src="https://user-images.githubusercontent.com/68719151/93408579-e3ae6f80-f8cf-11ea-8459-ac5f7ef7cd08.JPG"></img>
 
