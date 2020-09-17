@@ -60,8 +60,6 @@
 
 <img src="https://user-images.githubusercontent.com/20061192/93415883-7c002080-f8df-11ea-8d62-cf68fd6e49bd.png" width="90%"></img>
 
-<img src="https://user-images.githubusercontent.com/20061192/93415886-7e627a80-f8df-11ea-9b08-f2de3deab3a3.png" width="90%"></img>
-
 <img src="https://user-images.githubusercontent.com/20061192/93417147-47419880-f8e2-11ea-91e9-f0391f71509a.png" width="90%"></img>
 
 
