@@ -103,15 +103,10 @@
  - Mertric 서버 설치 후 오토스케일링 TEST
  - notice 의 deployment.yaml수정 후 배포 
 
-<img src="https://user-images.githubusercontent.com/68719151/93408895-9f6f9f00-f8d0-11ea-9c2c-e40e4335e90b.JPG"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93419621-457ad380-f8e8-11ea-80dd-de1e2b8ef2cb.png"></img>
 
-<img src="https://user-images.githubusercontent.com/68719151/93408910-aac2ca80-f8d0-11ea-90ff-75d3c01f52b8.JPG"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93419651-5592b300-f8e8-11ea-8633-3a474957bd31.png"></img>
 
-<img src="https://user-images.githubusercontent.com/68719151/93408953-c1692180-f8d0-11ea-9ef0-dde5cf3e84e4.JPG"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93419668-617e7500-f8e8-11ea-9a89-401a04d15397.png"></img>
 
-<img src="https://user-images.githubusercontent.com/68719151/93408929-b4e4c900-f8d0-11ea-8d57-8013d1d2840a.JPG"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93408943-bc0bd700-f8d0-11ea-9fa9-44cea466bf4b.JPG"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93408956-c332e500-f8d0-11ea-9b59-cd46fe189dd2.JPG"></img>
 
