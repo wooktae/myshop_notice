@@ -30,28 +30,31 @@
 
 ## 구현
 - 분석/설계 단계에서 도출된 헥사고날 아키텍처에 따라, 각 BC별로 대변되는 마이크로 서비스들을 스프링부트로 구현
-- 구현한 각 서비스를 로컬에서 실행하는 방법은 아래와 같다 (각자의 포트넘버는 7071 ~ 707n 이다)
+- 구현한 각 서비스를 로컬에서 실행하는 방법은 아래와 같다 (각자의 포트넘버는 8081 ~ 8084 이다)
 
 ### DDD 의 적용
 - 각 서비스내에 도출된 핵심 객체를 Entity 로 선언
-  - 예약 -> reservation
-  - 배정 -> assignment
-  - 빵   -> bread
+  - 주문 -> order
+  - 배송 -> delivery
+  - 주문취소 -> cancellation
+  - 알림 -> notice
 
 ### 적용 후 REST API 의 테스트
 
-- 한정판 빵 수량 등록 : http POST http://localhost:7073/breads breadName=cookie quantity=100
-- 빵 예약 : http POST http://localhost:7071/reservations breadId=2
-- 빵 예약 취소 : http PATCH http://localhost:7071/reservations/1 status=cancellation
-- 예약확인 : http GET http://localhost:7071/reservations
-- 배정확인 : http GET http://localhost:7072/assignments
-- 빵 재고확인 : http GET http://localhost:7073/breads
-- 뷰 확인 : http GET http://localhost:7074/pages
+- 상품 주문 : http POST http://localhost:8081/orders productId=1 qty=10
+- 상품 주문 취소 : http DELETE http://localhost:8081/orders/1
+- 상품 주문 확인 : http GET http://localhost:8081/orders/1
+- 배송 확인 : http GET http://localhost:8082/deliveries/1
+- 알림 등록 : http POST http://localhost:8084/notices orderId=1 notiStatus="new notification"
+- 알림 확인 : http GET http://localhost:8084/notices/1
+- 고객 센터 확인 : http GET http://localhost:8083/customercenter/myPages
 
 ## SAGA 패턴
 
-- 예약을 하면, 재고가 감소하고 배정이 되며 예약상태값이 breadSucceed로 변경된다. 
-- 예약을 취소하면 재고가 원복되고 배정은 삭제되며 예약상태값이 breadCanceled로 변경된다. 
+- 주문을 하면 배송이 되고 주문 상태값이 SHIPPED 로 변경된다. 
+- 주문을 취소하면 배송이 취소 되고 주문 상태값이 DeliveryCancelled 로 변경된다.
+- 주문을 하면 배송 알림이 나가고 알림 상태값이 Notice Send 로 변경된다.
+- 주문을 취소하면 배송 취소 알림이 나가고 알림 상태값이 Cancel Notice Send 로 변경된다.
 
 <img src="https://user-images.githubusercontent.com/68719151/93407728-caa4bf00-f8cd-11ea-816d-440d78b99fc2.JPG" width="90%"></img>
 
