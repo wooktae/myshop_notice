@@ -56,23 +56,14 @@
 - 주문을 하면 배송 알림이 나가고 알림 상태값이 Notice Send 로 변경된다.
 - 주문을 취소하면 배송 취소 알림이 나가고 알림 상태값이 Cancel Notice Send 로 변경된다.
 
-<img src="https://user-images.githubusercontent.com/68719151/93407728-caa4bf00-f8cd-11ea-816d-440d78b99fc2.JPG" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93415879-799dc680-f8df-11ea-9e7b-1839fd21f323.png" width="90%"></img>
 
-<img src="https://user-images.githubusercontent.com/68719151/93407734-cc6e8280-f8cd-11ea-9fb2-a57fdcc2efeb.JPG" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93415883-7c002080-f8df-11ea-8d62-cf68fd6e49bd.png" width="90%"></img>
 
-<img src="https://user-images.githubusercontent.com/68719151/93407740-ce384600-f8cd-11ea-9949-bd8d5f0e603b.JPG" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93415886-7e627a80-f8df-11ea-9b08-f2de3deab3a3.png" width="90%"></img>
 
 <img src="https://user-images.githubusercontent.com/68719151/93407745-d0020980-f8cd-11ea-8750-bc9476cfe069.JPG" width="90%"></img>
 
-<img src="https://user-images.githubusercontent.com/68719151/93407749-d1cbcd00-f8cd-11ea-975d-9890415029f9.JPG" width="90%"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93407750-d2fcfa00-f8cd-11ea-8b7e-308a9a13b3f4.JPG" width="90%"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93407753-d42e2700-f8cd-11ea-8090-7c92f062303c.JPG" width="90%"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93407761-d7c1ae00-f8cd-11ea-962e-a044f7a501ec.JPG" width="90%"></img>
-
-<img src="https://user-images.githubusercontent.com/68719151/93407767-dabc9e80-f8cd-11ea-892a-43b35b790ec1.JPG" width="90%"></img>
 
 ## CQRS
 
