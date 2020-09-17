@@ -62,12 +62,11 @@
 
 <img src="https://user-images.githubusercontent.com/20061192/93417147-47419880-f8e2-11ea-91e9-f0391f71509a.png" width="90%"></img>
 
-
 ## CQRS
 
 - 고객은 자신의 주문 상태를 뷰(Page) 를 통해 확인할 수 있다. 
-<img src="https://user-images.githubusercontent.com/68719151/93408111-b90fe700-f8ce-11ea-8ba6-a39abf52f577.JPG"></img>
-
+<img src="https://user-images.githubusercontent.com/20061192/93415924-94703b00-f8df-11ea-92cc-5232ad62d8a1.png"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93415916-8de1c380-f8df-11ea-82c6-5de65d39da00.png"></img>
 
 ## 동기식 호출 
 
