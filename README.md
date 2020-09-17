@@ -88,15 +88,24 @@
 ## 서킷 브레이킹
 
  - istio를 이용한 Circuit Breaking Test
+![서킷브레이커](https://user-images.githubusercontent.com/20061192/93419266-61ca4080-f8e7-11ea-9315-8f715064840e.png)
 
-<img src="https://user-images.githubusercontent.com/68719151/93408579-e3ae6f80-f8cf-11ea-8459-ac5f7ef7cd08.JPG"></img>
+![서킷브레이커_인젝](https://user-images.githubusercontent.com/20061192/93419208-37788300-f8e7-11ea-9050-0d4b606866c9.png)
+](https://user-images.githubusercontent.com/20061192/93415941-9e923980-f8df-11ea-8cc1-32f5858e98e1.png)
 
-<img src="https://user-images.githubusercontent.com/68719151/93408602-ec06aa80-f8cf-11ea-8ee6-a48d9c01a7d7.JPG"></img>
+![서킷브레이커_설정](https://user-images.githubusercontent.com/20061192/93419151-0dbf5c00-f8e7-11ea-8622-1d38317d8491.png)
+![서킷브레이커_결과](https://user-images.githubusercontent.com/20061192/93419154-11eb7980-f8e7-11ea-896e-8e5da77d638b.png)
+![서킷브레이커_명령어](https://user-images.githubusercontent.com/20061192/93419156-144dd380-f8e7-11ea-81c3-e286d611dde4.png)
 
-<img src="https://user-images.githubusercontent.com/68719151/93408584-e5783300-f8cf-11ea-9bf1-982a5e87ebc5.JPG"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93419151-0dbf5c00-f8e7-11ea-8622-1d38317d8491.png"></img>
 
-<img src="https://user-images.githubusercontent.com/68719151/93408587-e6a96000-f8cf-11ea-8834-f284425f45ff.JPG"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93419208-37788300-f8e7-11ea-9050-0d4b606866c9.png"></img>
 
+<img src="https://user-images.githubusercontent.com/20061192/93419156-144dd380-f8e7-11ea-81c3-e286d611dde4.png"></img>
+
+<img src="https://user-images.githubusercontent.com/20061192/93419266-61ca4080-f8e7-11ea-9315-8f715064840e.png"></img>
+
+<img src="https://user-images.githubusercontent.com/20061192/93419154-11eb7980-f8e7-11ea-896e-8e5da77d638b.png"></img>
 
 ## 오토스케일 아웃
 
