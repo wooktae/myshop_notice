@@ -70,16 +70,16 @@
 
 ## 동기식 호출 
 
-- 예약 시 재고확인하는 부분을 FeignClient를 사용하여 동기식 트랜잭션으로 처리 
+- 배송전 알림을 보내는 부분을 FeignClient를 사용하여 동기식 트랜잭션으로 처리 
 
-<img src="https://user-images.githubusercontent.com/68719151/93408247-08eeae00-f8cf-11ea-97d3-3e857b4deac7.JPG"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93417648-9936ee00-f8e3-11ea-8014-7b6279bfe5a1.png"></img>
 
-<img src="https://user-images.githubusercontent.com/68719151/93408251-0ab87180-f8cf-11ea-849b-6b3c584f5bd2.JPG"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93417657-9b994800-f8e3-11ea-98de-950c38032fea.png"></img>
 
 
 ## 폴리글랏
 
-- view페이지인 page 서비스에서는 DB hsql를 적용함
+- view페이지인 customercenter 서비스에서는 DB hsql를 적용함
 
 <img src="https://user-images.githubusercontent.com/68719151/93408246-0724ea80-f8cf-11ea-81c5-17fd29f96ba5.JPG"></img>
 
