@@ -1,31 +1,28 @@
 # 마이 샾 : myShop
 
 ## 서비스 소스 레파지토리
-- https://github.com/myjukey/fin-reservation.git
-- https://github.com/myjukey/fin-assignment.git
-- https://github.com/myjukey/fin-bread.git
-- https://github.com/myjukey/fin-page.git
-- https://github.com/myjukey/fin-gateway.git
+- https://github.com/wooktae/myshop_customercenter.git
+- https://github.com/wooktae/myshop_order.git
+- https://github.com/wooktae/myshop_delivery.git
+- https://github.com/wooktae/myshop_gateway.git
+- https://github.com/wooktae/myshop_notice.git
 
 ## 서비스 시나리오
 
 ### 기능적 요구사항
-1. 고객이 빵집 키오스크에서 예약을 한다. 
-2. 한정판 빵의 재고 여부를 확인하여 구입가능/불가능 여부를 알려준다.
-3. 구입가능 시 빵 재고가 감소하고 자동으로 주문정보가 배정시스템으로 전달된다.
-4. 배정시스템에서는 최적의 제빵사를 배정한다.( 랜던함수 )
-5. 제빵사가 배정되면  [breadSucceed] 상태를 예약관리로 보낸다. 
-6. 고객은 빵 수령 이전에 예약주문을 취소할 수 있다.
-7. 예약취소가 접수 [cancellation]되면 배정된 주문데이터를 삭제하고, 해당 빵 재고를 원복한다.
-8. 정상 취소처리가 되면 [breadCanceled] 상태가 된다.
+1. 고객이 상품을 주문한다.
+2. 주문과 동시에 배송 정보가 넘어가고, 배송이 된다는 알림을 받게 된다.
+3. 고객은 고객센터에서 자신의 주문 상태를 확인할 수 있다.
+4. 주문 취소는 배송 취소시에만 가능하고, 상태를 확인할 수 있어야 한다.
+5. 주문 취소 시 취소 되었다는 알림을 받게 된다.
 
 ### 비기능적 요구사항
 
 #### 트랜잭션
- - 빵 재고가 없는 경우 예약은 접수처리가 되지 않는다. Sync 호출(Req/Res)
+ - 주문 취소는 배송 취소가 선행되어야 한다. Sync 호출(Req/Res)
 
 #### 장애격리
- - 배정관리 서비스가 되지않더라도 예약접수는 정상적으로 처리가 되어야한다. Async (event-driven)
+ - 주문은 배송이나 알림 서비스가 되지 않더라도 되어야 한다. Async (event-driven)
 
 ## 이벤트스토밍
 
