@@ -62,7 +62,7 @@
 
 <img src="https://user-images.githubusercontent.com/20061192/93415886-7e627a80-f8df-11ea-9b08-f2de3deab3a3.png" width="90%"></img>
 
-<img src="https://user-images.githubusercontent.com/68719151/93407745-d0020980-f8cd-11ea-8750-bc9476cfe069.JPG" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93415916-8de1c380-f8df-11ea-82c6-5de65d39da00.png" width="90%"></img>
 
 
 ## CQRS
