@@ -26,7 +26,7 @@
 
 ## 이벤트스토밍
 
-<img src="https://user-images.githubusercontent.com/68719151/93406808-93351300-f8cb-11ea-9a13-ea70247a6042.JPG" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/20061192/93415849-6985e700-f8df-11ea-9f85-3299e31aeafa.png" width="90%"></img>
 
 ## 구현
 - 분석/설계 단계에서 도출된 헥사고날 아키텍처에 따라, 각 BC별로 대변되는 마이크로 서비스들을 스프링부트로 구현
